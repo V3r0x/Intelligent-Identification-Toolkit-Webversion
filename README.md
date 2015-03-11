@@ -11,8 +11,11 @@ Intelligent Identification Toolkit is a QR Code Scanner that displays data to a 
 
 recommended QR generator
 https://www.the-qrcode-generator.com/
+or use QR Codes in the img/ folder on Github
+
+Online-Demo: http://boredofinnovation.de/toolkit
+
+
 
 Scanner strips of http://url.tld/productname and shows the product(name)
-
 Exampe: QR Code content: http://example.com/car display the "Car" page check out nozzle, vacuumcleaner too.
- 
