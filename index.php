@@ -59,7 +59,12 @@
 			$(document).ready(function(){
 
 				$('#reader').html5_qrcode(function(data){
-						var trimmedData = data.substr(17)
+
+						var pieces = data.split("//");
+						pieces = pieces[1].split("/");
+						var trimmedData = pieces[1]
+
+						/*var trimmedData = data.substr(17)* for htpp://localhost/productname */
 
 						console.log(trimmedData);
 						$('#read').html(trimmedData);
